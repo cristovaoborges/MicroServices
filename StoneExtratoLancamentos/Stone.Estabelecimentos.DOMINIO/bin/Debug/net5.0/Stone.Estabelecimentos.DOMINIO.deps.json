@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Stone.Estabelecimentos.DOMINIO/1.0.0": {
+        "runtime": {
+          "Stone.Estabelecimentos.DOMINIO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Stone.Estabelecimentos.DOMINIO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
