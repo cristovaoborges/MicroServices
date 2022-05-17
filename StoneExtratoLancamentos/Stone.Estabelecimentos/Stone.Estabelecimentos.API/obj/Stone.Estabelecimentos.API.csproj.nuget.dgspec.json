@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.API\\Stone.Estabelecimentos.API.csproj": {}
+  },
+  "projects": {
+    "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.API\\Stone.Estabelecimentos.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.API\\Stone.Estabelecimentos.API.csproj",
+        "projectName": "Stone.Estabelecimentos.API",
+        "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.API\\Stone.Estabelecimentos.API.csproj",
+        "packagesPath": "C:\\Users\\SQUADRA\\.nuget\\packages\\",
+        "outputPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SQUADRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.14.4.9:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.Application\\Stone.Estabelecimentos.APP.csproj": {
+                "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.Application\\Stone.Estabelecimentos.APP.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.Application\\Stone.Estabelecimentos.APP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.Application\\Stone.Estabelecimentos.APP.csproj",
+        "projectName": "Stone.Estabelecimentos.APP",
+        "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.Application\\Stone.Estabelecimentos.APP.csproj",
+        "packagesPath": "C:\\Users\\SQUADRA\\.nuget\\packages\\",
+        "outputPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SQUADRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.14.4.9:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.INFRA\\Stone.Estabelecimentos.INFRA.csproj": {
+                "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.INFRA\\Stone.Estabelecimentos.INFRA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.DOMINIO\\Stone.Estabelecimentos.DOMINIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.DOMINIO\\Stone.Estabelecimentos.DOMINIO.csproj",
+        "projectName": "Stone.Estabelecimentos.DOMINIO",
+        "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.DOMINIO\\Stone.Estabelecimentos.DOMINIO.csproj",
+        "packagesPath": "C:\\Users\\SQUADRA\\.nuget\\packages\\",
+        "outputPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.DOMINIO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SQUADRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.14.4.9:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.INFRA\\Stone.Estabelecimentos.INFRA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.INFRA\\Stone.Estabelecimentos.INFRA.csproj",
+        "projectName": "Stone.Estabelecimentos.INFRA",
+        "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.INFRA\\Stone.Estabelecimentos.INFRA.csproj",
+        "packagesPath": "C:\\Users\\SQUADRA\\.nuget\\packages\\",
+        "outputPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.INFRA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SQUADRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.14.4.9:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.DOMINIO\\Stone.Estabelecimentos.DOMINIO.csproj": {
+                "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Estabelecimentos\\Stone.Estabelecimentos.DOMINIO\\Stone.Estabelecimentos.DOMINIO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
