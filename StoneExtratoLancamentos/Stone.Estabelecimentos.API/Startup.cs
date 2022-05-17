@@ -6,16 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Stone.Estabelecimentos.APP.Config;
 using Stone.Estabelecimentos.APP.Repository;
 using Stone.Estabelecimentos.APP.Repository.Interfaces;
 using Stone.Estabelecimentos.INFRA.Repository.Context;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace Stone.Estabelecimentos.API
 {

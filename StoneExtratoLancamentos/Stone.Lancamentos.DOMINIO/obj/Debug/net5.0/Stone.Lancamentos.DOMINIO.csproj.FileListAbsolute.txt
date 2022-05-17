@@ -1,0 +1,12 @@
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\bin\Debug\net5.0\Stone.Lancamentos.DOMINIO.deps.json
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\bin\Debug\net5.0\Stone.Lancamentos.DOMINIO.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\bin\Debug\net5.0\ref\Stone.Lancamentos.DOMINIO.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\bin\Debug\net5.0\Stone.Lancamentos.DOMINIO.pdb
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\obj\Debug\net5.0\Stone.Lancamentos.DOMINIO.csproj.AssemblyReference.cache
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\obj\Debug\net5.0\Stone.Lancamentos.DOMINIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\obj\Debug\net5.0\Stone.Lancamentos.DOMINIO.AssemblyInfoInputs.cache
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\obj\Debug\net5.0\Stone.Lancamentos.DOMINIO.AssemblyInfo.cs
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\obj\Debug\net5.0\Stone.Lancamentos.DOMINIO.csproj.CoreCompileInputs.cache
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\obj\Debug\net5.0\Stone.Lancamentos.DOMINIO.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\obj\Debug\net5.0\ref\Stone.Lancamentos.DOMINIO.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos.DOMINIO\obj\Debug\net5.0\Stone.Lancamentos.DOMINIO.pdb

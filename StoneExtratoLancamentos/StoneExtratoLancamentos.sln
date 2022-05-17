@@ -7,13 +7,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stone.Estabelecimentos", "Stone.Estabelecimentos", "{BDC256BB-CD67-42C8-A17D-3811C2489F38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Estabelecimentos.API", "Stone.Estabelecimentos.API\Stone.Estabelecimentos.API.csproj", "{D1FFBC48-1769-40DC-8299-778AF8806D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Estabelecimentos.API", "Stone.Estabelecimentos.API\Stone.Estabelecimentos.API.csproj", "{D1FFBC48-1769-40DC-8299-778AF8806D38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Estabelecimentos.APP", "Stone.Estabelecimentos.Application\Stone.Estabelecimentos.APP.csproj", "{A3E11136-2E1C-4568-B6C4-18CBEEF52232}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Estabelecimentos.APP", "Stone.Estabelecimentos.Application\Stone.Estabelecimentos.APP.csproj", "{A3E11136-2E1C-4568-B6C4-18CBEEF52232}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Estabelecimentos.DOMINIO", "Stone.Estabelecimentos.DOMINIO\Stone.Estabelecimentos.DOMINIO.csproj", "{C85DDD3E-4B56-4748-AAA5-BFC4B689937D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Estabelecimentos.DOMINIO", "Stone.Estabelecimentos.DOMINIO\Stone.Estabelecimentos.DOMINIO.csproj", "{C85DDD3E-4B56-4748-AAA5-BFC4B689937D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Estabelecimentos.INFRA", "Stone.Estabelecimentos.INFRA\Stone.Estabelecimentos.INFRA.csproj", "{D54EA9D4-899C-4C73-9077-A42E89AF373C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Estabelecimentos.INFRA", "Stone.Estabelecimentos.INFRA\Stone.Estabelecimentos.INFRA.csproj", "{D54EA9D4-899C-4C73-9077-A42E89AF373C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stone.Lancamentos", "Stone.Lancamentos", "{401CC96D-B434-4024-89DA-C1043E4A0B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Lancamentos.API", "Stone.Lancamentos.API\Stone.Lancamentos.API.csproj", "{4BB28D97-6DF1-4C45-9A52-26F6FD1B20BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Lancamentos.APP", "Stone.Lancamentos.APP\Stone.Lancamentos.APP.csproj", "{87E229A1-797D-42B9-9006-B097645AB714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Lancamentos.DOMINIO", "Stone.Lancamentos.DOMINIO\Stone.Lancamentos.DOMINIO.csproj", "{156A0819-2024-4A3D-AA40-EF85537385D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Lancamentos.INFRA", "Stone.Lancamentos.INFRA\Stone.Lancamentos.INFRA.csproj", "{A0A91464-44FC-4E8F-B2DA-029838DFEC1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +47,22 @@ Global
 		{D54EA9D4-899C-4C73-9077-A42E89AF373C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D54EA9D4-899C-4C73-9077-A42E89AF373C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D54EA9D4-899C-4C73-9077-A42E89AF373C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB28D97-6DF1-4C45-9A52-26F6FD1B20BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB28D97-6DF1-4C45-9A52-26F6FD1B20BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB28D97-6DF1-4C45-9A52-26F6FD1B20BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB28D97-6DF1-4C45-9A52-26F6FD1B20BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E229A1-797D-42B9-9006-B097645AB714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E229A1-797D-42B9-9006-B097645AB714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E229A1-797D-42B9-9006-B097645AB714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E229A1-797D-42B9-9006-B097645AB714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156A0819-2024-4A3D-AA40-EF85537385D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156A0819-2024-4A3D-AA40-EF85537385D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156A0819-2024-4A3D-AA40-EF85537385D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156A0819-2024-4A3D-AA40-EF85537385D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A91464-44FC-4E8F-B2DA-029838DFEC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A91464-44FC-4E8F-B2DA-029838DFEC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A91464-44FC-4E8F-B2DA-029838DFEC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A91464-44FC-4E8F-B2DA-029838DFEC1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +73,11 @@ Global
 		{A3E11136-2E1C-4568-B6C4-18CBEEF52232} = {BDC256BB-CD67-42C8-A17D-3811C2489F38}
 		{C85DDD3E-4B56-4748-AAA5-BFC4B689937D} = {BDC256BB-CD67-42C8-A17D-3811C2489F38}
 		{D54EA9D4-899C-4C73-9077-A42E89AF373C} = {BDC256BB-CD67-42C8-A17D-3811C2489F38}
+		{401CC96D-B434-4024-89DA-C1043E4A0B0C} = {FAE00AD3-BEEF-4D0B-88F0-453EE71B3DF1}
+		{4BB28D97-6DF1-4C45-9A52-26F6FD1B20BA} = {401CC96D-B434-4024-89DA-C1043E4A0B0C}
+		{87E229A1-797D-42B9-9006-B097645AB714} = {401CC96D-B434-4024-89DA-C1043E4A0B0C}
+		{156A0819-2024-4A3D-AA40-EF85537385D7} = {401CC96D-B434-4024-89DA-C1043E4A0B0C}
+		{A0A91464-44FC-4E8F-B2DA-029838DFEC1F} = {401CC96D-B434-4024-89DA-C1043E4A0B0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB2451F9-C8CB-4247-90B7-CB822CB69B33}
