@@ -18,5 +18,7 @@ namespace Stone.Estabelecimentos.DOMINIO.Entities
         public string NomeEstabelecimento { get; set; }
         [Column("classificacao")]
         public ClassificacaoEstabelecimento? Classificacao { get; set; }
+        
+
     }
 }

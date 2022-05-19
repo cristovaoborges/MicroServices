@@ -27,3 +27,4 @@ C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Extrato\Stone.
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Extrato\Stone.Extrato.API\obj\Debug\net5.0\ref\Stone.Extrato.API.dll
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Extrato\Stone.Extrato.API\obj\Debug\net5.0\Stone.Extrato.API.pdb
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Extrato\Stone.Extrato.API\obj\Debug\net5.0\Stone.Extrato.API.genruntimeconfig.cache
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Extrato\Stone.Extrato.API\bin\Debug\net5.0\RestSharp.dll

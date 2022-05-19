@@ -10,5 +10,6 @@ namespace Stone.Estabelecimentos.APP.Data.ValueObjects
         public long Id { get; set; }        
         public string NomeEstabelecimento { get; set; }       
         public ClassificacaoEstabelecimento? Classificacao { get; set; }
+        
     }
 }

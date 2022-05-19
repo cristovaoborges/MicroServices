@@ -6,6 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Stone.Extrato.API.Services;
+using Stone.Extrato.API.Services.IServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +28,7 @@ namespace Stone.Extrato.API
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddHttpClient<ILancamentoService, LancamentoService>(c => c.BaseAddress = new Uri(Configuration["ServicesUrls:StoneLancamentosAPI"]));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
