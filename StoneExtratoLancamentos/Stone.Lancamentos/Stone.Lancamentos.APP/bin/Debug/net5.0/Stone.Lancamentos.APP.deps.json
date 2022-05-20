@@ -10,7 +10,8 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "Stone.Lancamentos.DOMINIO": "1.0.0",
-          "Stone.Lancamentos.INFRA": "1.0.0"
+          "Stone.Lancamentos.INFRA": "1.0.0",
+          "StoneMessage": "1.0.0"
         },
         "runtime": {
           "Stone.Lancamentos.APP.dll": {}
@@ -1066,6 +1067,11 @@
         "runtime": {
           "Stone.Lancamentos.INFRA.dll": {}
         }
+      },
+      "StoneMessage/1.0.0": {
+        "runtime": {
+          "StoneMessage.dll": {}
+        }
       }
     }
   },
@@ -1746,6 +1752,11 @@
       "sha512": ""
     },
     "Stone.Lancamentos.INFRA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StoneMessage/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

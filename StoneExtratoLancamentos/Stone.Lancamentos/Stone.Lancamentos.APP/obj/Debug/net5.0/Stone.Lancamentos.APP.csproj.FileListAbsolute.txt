@@ -32,3 +32,5 @@ C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\St
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.APP\obj\Debug\net5.0\Stone.Lancamentos.APP.dll
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.APP\obj\Debug\net5.0\ref\Stone.Lancamentos.APP.dll
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.APP\obj\Debug\net5.0\Stone.Lancamentos.APP.pdb
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.APP\bin\Debug\net5.0\StoneMessage.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.APP\bin\Debug\net5.0\StoneMessage.pdb

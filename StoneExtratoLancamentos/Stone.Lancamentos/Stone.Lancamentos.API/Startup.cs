@@ -1,4 +1,6 @@
 using AutoMapper;
+using MassTransit;
+using MassTransit.AspNetCoreIntegration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -10,8 +12,9 @@ using Stone.Lancamentos.APP.Config;
 using Stone.Lancamentos.APP.Repository;
 using Stone.Lancamentos.APP.Repository.Interfaces;
 using Stone.Lancamentos.INFRA.Repository.Context;
+using StoneMessage.Common;
+using StoneMessage.Events;
 using System;
-
 
 namespace Stone.Lancamentos.API
 {
@@ -34,8 +37,24 @@ namespace Stone.Lancamentos.API
 
             IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
             services.AddSingleton(mapper);
-           
-            
+
+
+            // MassTransit-RabbitMQ Configuration
+            services.AddMassTransit(config => {
+
+                config.UsingRabbitMq((ctx, cfg) =>
+                {
+                    cfg.Host(Configuration["EventBusSettings:HostAddress"]);
+                    cfg.UseHealthCheck(ctx);
+                    var timeout = TimeSpan.FromSeconds(10);
+                    var serviceAddress = new Uri("rabbitmq://localhost/order-service");
+
+                    config.AddRequestClient<LancamentoEvent>(serviceAddress, timeout);
+                });
+               
+            });
+            services.AddMassTransitHostedService();
+
 
             services.AddScoped<ILancamentoRepository, LancamentoRepository>();
 

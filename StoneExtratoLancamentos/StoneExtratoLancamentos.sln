@@ -29,6 +29,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stone.Extrato", "Stone.Extr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Extrato.API", "Stone.Extrato\Stone.Extrato.API\Stone.Extrato.API.csproj", "{40C9B591-7BE6-4448-9C0B-A07ACC1FEC8F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrations", "Integrations", "{749D20C4-ACAE-41F0-9D2F-C861C3602B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoneMessage", "Stone.Message\StoneMessage\StoneMessage.csproj", "{951DAF8B-B384-45B3-A8E5-E89CD278CC94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,10 @@ Global
 		{40C9B591-7BE6-4448-9C0B-A07ACC1FEC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C9B591-7BE6-4448-9C0B-A07ACC1FEC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C9B591-7BE6-4448-9C0B-A07ACC1FEC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951DAF8B-B384-45B3-A8E5-E89CD278CC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951DAF8B-B384-45B3-A8E5-E89CD278CC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951DAF8B-B384-45B3-A8E5-E89CD278CC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951DAF8B-B384-45B3-A8E5-E89CD278CC94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +96,7 @@ Global
 		{A0A91464-44FC-4E8F-B2DA-029838DFEC1F} = {401CC96D-B434-4024-89DA-C1043E4A0B0C}
 		{70576C5F-0401-4A57-B8A9-DE5551122946} = {FAE00AD3-BEEF-4D0B-88F0-453EE71B3DF1}
 		{40C9B591-7BE6-4448-9C0B-A07ACC1FEC8F} = {70576C5F-0401-4A57-B8A9-DE5551122946}
+		{951DAF8B-B384-45B3-A8E5-E89CD278CC94} = {749D20C4-ACAE-41F0-9D2F-C861C3602B82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB2451F9-C8CB-4247-90B7-CB822CB69B33}

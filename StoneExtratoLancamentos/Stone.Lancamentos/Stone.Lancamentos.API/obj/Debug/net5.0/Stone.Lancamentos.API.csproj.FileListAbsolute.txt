@@ -130,3 +130,15 @@ C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\St
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\obj\Debug\net5.0\ref\Stone.Lancamentos.API.dll
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\obj\Debug\net5.0\Stone.Lancamentos.API.pdb
 C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\obj\Debug\net5.0\Stone.Lancamentos.API.genruntimeconfig.cache
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\Automatonymous.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\GreenPipes.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\MassTransit.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\MassTransit.AspNetCoreIntegration.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\MassTransit.RabbitMqTransport.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\NewId.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\StoneMessage.dll
+C:\ESTUDOS\.net\Stone\MicroServices\StoneExtratoLancamentos\Stone.Lancamentos\Stone.Lancamentos.API\bin\Debug\net5.0\StoneMessage.pdb

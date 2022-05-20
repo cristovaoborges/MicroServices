@@ -1,4 +1,5 @@
 ﻿using Stone.Lancamentos.DOMINIO.Enums;
+using StoneMessage.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace Stone.Lancamentos.APP.Data.ValueObjects
 {
-    public class LancamentoVO
+    public class LancamentoVO :BaseEvent
     {
        
-        public long Id { get; set; }      
+        public long Id { get; set; }    
         
         public DateTime DataReferencia { get; set; }
         public FormaPagamento FormaPagamento { get; set; }        

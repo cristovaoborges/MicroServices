@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Stone.Lancamentos.APP.Data.ValueObjects;
 using Stone.Lancamentos.APP.Repository.Interfaces;
+using StoneMessage.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +16,16 @@ namespace Stone.Lancamentos.API.Controllers
     public class LancamentoController : ControllerBase
     {
 
-        private ILancamentoRepository _repository;
+        private readonly ILancamentoRepository _repository;
+        private readonly IPublishEndpoint _publishEndPoint;
+        private readonly IMapper _mapper;
 
-        public LancamentoController(ILancamentoRepository repository)
+        public LancamentoController(ILancamentoRepository repository, IPublishEndpoint publishEndPoint, IMapper mapper)
         {
             _repository = repository;
+            _publishEndPoint = publishEndPoint;
+            _mapper = mapper;
+
 
         }
 
@@ -42,6 +49,8 @@ namespace Stone.Lancamentos.API.Controllers
         {
             if (vo == null) return BadRequest();
             var lancamento = await _repository.Create(vo);
+            var eventmensage = _mapper.Map<LancamentoVO>(vo);
+            await _publishEndPoint.Publish<LancamentoVO>(eventmensage);
             return Ok(lancamento);
         }
 

@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Stone.Message\StoneMessage\StoneMessage.csproj" />
     <ProjectReference Include="..\Stone.Lancamentos.DOMINIO\Stone.Lancamentos.DOMINIO.csproj" />
     <ProjectReference Include="..\Stone.Lancamentos.INFRA\Stone.Lancamentos.INFRA.csproj" />
   </ItemGroup>

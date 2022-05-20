@@ -1518,6 +1518,16 @@
         "runtime": {
           "bin/placeholder/Stone.Lancamentos.INFRA.dll": {}
         }
+      },
+      "StoneMessage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/StoneMessage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoneMessage.dll": {}
+        }
       }
     }
   },
@@ -5756,13 +5766,19 @@
       "type": "project",
       "path": "../Stone.Lancamentos.INFRA/Stone.Lancamentos.INFRA.csproj",
       "msbuildProject": "../Stone.Lancamentos.INFRA/Stone.Lancamentos.INFRA.csproj"
+    },
+    "StoneMessage/1.0.0": {
+      "type": "project",
+      "path": "../../Stone.Message/StoneMessage/StoneMessage.csproj",
+      "msbuildProject": "../../Stone.Message/StoneMessage/StoneMessage.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 11.0.1",
       "Stone.Lancamentos.DOMINIO >= 1.0.0",
-      "Stone.Lancamentos.INFRA >= 1.0.0"
+      "Stone.Lancamentos.INFRA >= 1.0.0",
+      "StoneMessage >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5798,6 +5814,9 @@
             },
             "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Lancamentos\\Stone.Lancamentos.INFRA\\Stone.Lancamentos.INFRA.csproj": {
               "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Lancamentos\\Stone.Lancamentos.INFRA\\Stone.Lancamentos.INFRA.csproj"
+            },
+            "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Message\\StoneMessage\\StoneMessage.csproj": {
+              "projectPath": "C:\\ESTUDOS\\.net\\Stone\\MicroServices\\StoneExtratoLancamentos\\Stone.Message\\StoneMessage\\StoneMessage.csproj"
             }
           }
         }
