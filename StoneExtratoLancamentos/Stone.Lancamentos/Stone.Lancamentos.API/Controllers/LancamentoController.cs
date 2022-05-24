@@ -49,8 +49,10 @@ namespace Stone.Lancamentos.API.Controllers
         {
             if (vo == null) return BadRequest();
             var lancamento = await _repository.Create(vo);
+            
             var eventmensage = _mapper.Map<LancamentoVO>(vo);
             await _publishEndPoint.Publish<LancamentoVO>(eventmensage);
+            
             return Ok(lancamento);
         }
 
